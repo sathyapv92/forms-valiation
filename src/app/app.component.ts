@@ -140,6 +140,7 @@ export class ModelFormComponent implements OnInit {
 
 
   ngOnInit() {
+    console.log("Came to Form iitialization");
     this.createFormControls();
     this.createForm();
   }
